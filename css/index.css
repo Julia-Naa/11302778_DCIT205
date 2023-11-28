@@ -125,12 +125,7 @@ h2{
  }
 
 
- .footer-area{
-  background-color: #2c2a58;
-  background: #BD9C6C;
-  width: 100%;
-  align-items: center;
- }
+ 
 
  .section-gap{
   padding-top: 50px;
@@ -141,5 +136,30 @@ h2{
   display: flex;
  }
 
- 
- 
+
+ footer{
+    
+  background-size: cover;
+  font-family: 'times New Roman', cursive;
+  margin: 0;
+}
+
+.mainshow{
+  font-size: 45px;
+}
+#footer-body{
+  color: white;
+  text-align: center;
+  width: 97%;
+  padding: 20px;
+  background-color: #2c2a58; 
+  font-size: 18px;
+}
+#titl{
+  font-size: 30px;
+  text-decoration: underline;
+}
+h4{
+  font-size: 30px ;
+  text-align: center;
+}
