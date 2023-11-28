@@ -50,8 +50,8 @@ nav ul li a:hover{
 h1{
   padding: 1em;
   position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
   color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
   font-size: 100px;
   text-align: center;
@@ -65,7 +65,6 @@ h2{
     padding-right: 1rem;
   font-size: 40px;
   font-weight: bold;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #2c2a58; 
   background-color:  #BD9C6C;
 }
@@ -78,8 +77,7 @@ h2{
     padding-left: 1rem;
     padding-right: 1rem;
     text-align: left;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif
+    font-size: 25px;
    }
 
 
@@ -88,14 +86,45 @@ h2{
  .main2{
     background-image: url("../pictures/background_2.jpg");
     height: 46rem;
-    
     background-size: contain;
     background-repeat: no-repeat;
     padding-top: 200px;
     padding-bottom: 200px;
     box-sizing: border-box;
-   
  }
+ .main2 a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  display:inline-flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  background-color: #BD9C6C;
+  margin: .5em;
+  padding: .25em .625em .375em;
+  display: inline-block;
+  text-align: center; 
+  vertical-align: middle;
+  border-style: solid;
+  border: none;
+  height: 50px;
+  width: 200px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 600px;
+
+ }
+
+ .main2 a:hover{
+  transition: 1s;
+  background-color: #2c2a58;
+ }
+
+
  .footer-area{
   background-color: #2c2a58;
   background: #BD9C6C;

@@ -40,84 +40,67 @@ nav ul li a:hover{
   background-color: #2c2a58;
 }
 
-#about-image{
+#gallery-image{
   background-color: #2c2a58;
   background-blend-mode: multiply;
-  background-image: url("../pictures/about\ pic.jpg");
+  background-image: url("../pictures/gallery\ pic.jpeg");
   background-repeat: no-repeat;
   height:10rem;
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 100px;
-  color: white;
 }
 
 h1{
   text-align: center;
   color: #BD9C6C;
 }
-h2{
-  text-align: center;
-  font-size: 2.7em;
-  line-height: 1.5;
-  color: #BD9C6C;
-  background-color: #2c2a58;
-}
+.title{
+  float: right;
+  color: #2c2a58;
+  font-size: 50px;
+  padding-left: 1rem;
+  padding-right:2rem;
+  padding-top: 10rem;
 
-p{
+}
+.g2-image{
+  background-repeat: no-repeat;
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
-  padding-right: 1rem;
-  text-align: left;
-  font-size: 20px;
-  
- }
-
-h3{
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-size: 30px;
-  display: flex;
-}
-
-.column{
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-  grid-template-rows: 0.5fr 0.5fr 0.5fr;
-  height: 450px;
+  padding-right:2rem;
   
 }
 
-.col-md-12{
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 10px;
-  margin-inline-end: 10px;
-  float: right;
-  margin-top: 0;
-  margin-bottom: 1rem;
- 
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 20px;
-  text-align: center;
- 
-  margin-top: 0;
-  margin-bottom: 1rem;
-
-}
-.p1{
-  text-align: center;
-  font-size: 50px;
+.g3-image{
+  background-repeat: no-repeat;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14rem;
+  padding-right: 0rem;
+  
 }
 
-.p2{
-  text-align: center;
-  font-size: 20px;
-  float: right;
+.g4-image{
+  background-repeat: no-repeat;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24rem;
+  padding-right: 0rem;
+}
+
+research2-image{
+  background-repeat: no-repeat;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 0rem;
+  height: 600px;
 }
 
 .footer-area{
@@ -126,4 +109,3 @@ h3{
   width: 100%;
   align-items: center;
  }
-

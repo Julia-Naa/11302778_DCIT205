@@ -40,22 +40,23 @@ nav ul li a:hover{
   background-color: #2c2a58;
 }
 
-#about-image{
+#student-image{
   background-color: #2c2a58;
   background-blend-mode: multiply;
-  background-image: url("../pictures/about\ pic.jpg");
+  background-image: url("../pictures/student\ pic.jpeg");
   background-repeat: no-repeat;
   height:10rem;
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 100px;
-  color: white;
+  
 }
 
 h1{
   text-align: center;
   color: #BD9C6C;
 }
+
 h2{
   text-align: center;
   font-size: 2.7em;
@@ -71,59 +72,12 @@ p{
   padding-left: 1rem;
   padding-right: 1rem;
   text-align: left;
-  font-size: 20px;
-  
+  font-size: 25px;
  }
 
-h3{
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-size: 30px;
-  display: flex;
-}
-
-.column{
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-  grid-template-rows: 0.5fr 0.5fr 0.5fr;
-  height: 450px;
-  
-}
-
-.col-md-12{
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 10px;
-  margin-inline-end: 10px;
-  float: right;
-  margin-top: 0;
-  margin-bottom: 1rem;
- 
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 20px;
-  text-align: center;
- 
-  margin-top: 0;
-  margin-bottom: 1rem;
-
-}
-.p1{
-  text-align: center;
-  font-size: 50px;
-}
-
-.p2{
-  text-align: center;
-  font-size: 20px;
-  float: right;
-}
-
-.footer-area{
+ .footer-area{
   background-color: #2c2a58;
   background: #BD9C6C;
   width: 100%;
   align-items: center;
  }
-
